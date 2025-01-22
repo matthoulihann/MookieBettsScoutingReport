@@ -1,0 +1,58 @@
+Pitch Outcomes and Zone Heatmaps
+Analyzing Pitch Outcomes by Type and Location
+This project focuses on visualizing and analyzing pitch outcomes for various pitch types and locations using Python, Matplotlib, and Seaborn. The goal is to provide actionable insights for player performance and pitch effectiveness by generating tables and heatmaps.
+
+Features
+1. Pitch Outcomes Table
+Overview: A detailed table summarizing pitch outcomes (e.g., strike swinging, strike called, chased pitch, ball in play) by pitch type.
+Visualization: Generates a clean, structured table using Matplotlib.
+2. Zone Heatmap
+Overview: Heatmaps displaying pitch effectiveness across different strike zones.
+Visualization: Zone-specific performance of pitch types with annotations for easy interpretation.
+Customization: Adjustable labels and color schemes.
+Technologies Used
+Python: Core programming language.
+Pandas: Data manipulation and grouping.
+Matplotlib: Table visualization and heatmap generation.
+Seaborn: For heatmaps and enhanced visuals.
+How to Use
+Clone the repository:
+bash
+Copy
+Edit
+git clone https://github.com/your-username/pitch-outcomes-zone-heatmaps.git
+Install the required libraries:
+bash
+Copy
+Edit
+pip install matplotlib seaborn pandas numpy
+Run the main script:
+bash
+Copy
+Edit
+python pitch_analysis.py
+View the generated Pitch Outcomes Table and Zone Heatmaps.
+Sample Visualizations
+1. Pitch Outcomes Table
+
+2. Zone Heatmap
+
+Project Highlights
+Provides a structured view of pitch performance by type and zone.
+Offers customizable visualizations for baseball analytics enthusiasts.
+Demonstrates practical applications of Python in sports analytics.
+Future Enhancements
+Automate data fetching using pybaseball.
+Include more granular zone divisions (e.g., 9x9 grid).
+Integrate player-specific analysis (e.g., Statcast data for specific MLB players).
+License
+This project is licensed under the MIT License.
+
+Contributions
+Contributions are welcome! Feel free to open issues or submit pull requests to improve this project.
+
+Contact
+For any inquiries, reach out to:
+
+Email: mjhoulih@go.olemiss.edu
+GitHub: matthoulihann
